@@ -1,18 +1,23 @@
 # BSS-QL
+
 Work repository "Embedded Learning Approaches in the Whale Optimizer to Solve Coverage Combinatorial Problems"
 
 ## Instructions
 
-#### 1) Create PostgreSQL Database with the structure of Database/Table_DB_mh_result_mh_result.sql
+#### 1) Create PostgreSQL Database (file and scripts to create a data bases in local postgres are in file "Table_DB_mh_resultados.sql")
 
-#### 2) Update ".env" with the credentials corresponding to the created database.
+#### 2) Update "db_config.ini" with the credentials corresponding to the created database.
 
-#### 3) Populate database with the experiments to be performed in "configure.py".
+#### 3) Install the settings.py for install all packages and set up the envir
+
+#### 4) Populate database with the experiments to be performed in "configure.py". You can follow the example with the "17.- configure (con 80a QL).py" file.
+
 ```
 python configure.py
 ```
 
-#### 4) Running experiments
+#### 5) Running experiments
+
 ```
 python main.py
 ```
